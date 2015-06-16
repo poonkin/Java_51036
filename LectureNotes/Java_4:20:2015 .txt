@@ -1,0 +1,43 @@
+What is a heap?
+
+A heap is a data structure that is looks like a binary tree which is in order. It also has to be balanced. The reason heap is used is because its search function is O(lon(g));
+A heap is an area of memory reserved for data that is created at runtime. Used for OBJECTS 
+
+A Stack is an area of memory used for date whose size can be determined when the program is compiled.
+
+Find out how to bring up UML diagram in JetBrains
+
+What is a utility class? 
+What is a utility method?
+
+
+cloning method of Object will be on the midterm. (GO OVER IT)
+
+Abstract classes cannot be instantiated 
+Abstract classes are good for polymorphism
+
+Go over toString method 
+
+Autoboxing 
+
+Overloading - same name, but different signature, type or number of parameters
+Return type does not effect Overloading 
+
+this key words refers to the instance of object at runtime
+
+VarArgs allows  you to have as many parameters of a function as you like and it it can be of any TYPE but it has to be LAST
+
+Go OVER interfaces
+
+Interface vs Abstract Class
+
+An interface is a contract
+When an object interfaces many interfaces, you are telling the compiler that you will override these methods 
+
+
+An abstract method: like an interfaces it cannot be 
+It can have methods,
+its can private attributes 
+
+When you use an abstract class, you only extend ONE abstract class
+but you can you extend many interfaces…

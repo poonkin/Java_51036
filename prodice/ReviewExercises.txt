@@ -1,0 +1,72 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+##################################
+MY DRIVERS: 
+P10_2 ButtonViewer 
+P10_26 OlympicRings 
+P10_35 QuickBill
+P11_22 TriangleViewer 
+pig Stub 
+###################################
+
+
+R10.5
+Event Object:
+-An event is a action performed by a user that may prompt a response from a program.
+Event Source: 
+-An even source is a user interface component that generates a particular event. 
+Event Listener: 
+-Event listener objects are instances of classes that contain methods that provide instructions that need to be executed when events occur.
+
+R10.6
+Usually when the user preforms an action, an event source, corresponding to the user’s action, calls methods of an event listener class. 
+
+R10.11
+-There are two advantages to putting event listeners inside inner classes
+1) Since listener classes tend to be short, its better in terms of organizing code. 
+2) Inner class methods can access instances variables and methods of surrounding class. 
+
+-If Java did not have inner classes, we would implement event listeners in the frame. (Usually considered a bad technique) 
+  
+R10.14
+Name a method that is declared in JTextArea
+-Append method is declared in JTextArea. 
+
+A method that JTextArea inherits from JTextComponenet 
+- JTextArea inherits setText method. 
+
+A method that JTextArea inherits from JComponent
+-JComponent is an abstract class. JTextArea inherits getHeight method from it. 
+
+R10.22
+In the Italian Flag example, colors are set as follows: 
+g.setColor(Color.GREEN)
+g.setColor(Color.RED)
+- I would change color attributes to whatever colors I want draw the flag with: 
+i.e. Color.BLUE or Color.YELLOW …. 
+
+R11.2 
+Layout managers expand each component to fill the entire allotted area, which makes 
+the layout look good an saves collocating time. 
+
+R11.11
+More then one checked box can be checked at a time, but only one radio button can be 
+pressed at a time. Because check box settings settings do not exclude each other, you do not place a set of checked boxes inside a radio group. 
+
+R11.19 
+What is the difference between action event and mouse event?
+Mouse events are processed via Mouse Listeners which are usually more complex then action
+listeners. Mouse Listener interface has five different methods to process events and all fives methods of the interfaces must be implemented even if some methods are implemented as do-nothing methods. 
+
+R11.20
+ActionListener interface has only one methods to process an ActionEvent: actionPerformed 
+MouseListener interface has the following methods to process events: 
+mousePressed, mouseRelease, mouseClicked, mouseEntered and mouseExited. 
+
+R11.21 
+MouseListener has  bigger variety of events that it can process. 
+ 
+
+

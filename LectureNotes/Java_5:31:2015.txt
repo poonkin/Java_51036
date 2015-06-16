@@ -1,0 +1,41 @@
+Data Structures: 
+
+Java Set - no duplicates are allowed 
+
+Hash code is not random
+
+size of a hash table should be a prime number 
+
+Summary of data structures: 
+-Quick Sort - the fastest way to sort a table
+-Binary Search
+
+Note: Hash Table is a very common way to store information
+
+
+Linked List
+InsertTime: O(n)
+Capacity: No
+Contains: O(n)
+Sorted: Np
+
+Array List 
+InsertTime: O(1)
+Capacity: Yes
+Contains: O(n)
+Sorted: No
+
+HashTable 
+InsertTime: O(1)
+Capacity: Yes
+Contains: O(1)
+Sorted: No
+
+HashTable 
+InsertTime: O(logn)
+Capacity: No
+Contains: O(lohn)
+Sorted: Yes
+
+concrete class?
+

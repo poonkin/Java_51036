@@ -1,0 +1,60 @@
+Exceptions
+
+-If you are making an exception make it CHECKED!
+
+whatever extends from Runtime Exceptions is UNCHECKED!
+
+TWO kinds of exceptions - checked and unchecked 
+
+unchecked exceptions - programers fault, can be avoided by writing better code 
+
+Everything that does not inherit from Runtime Exception is a UNCHECKED exception!
+
+Checked exception is usually users fault!
+If the exception is checked, the user should be able to recover from it - provide feedback
+
+Sequence of actions during exception:
+Once and exception is generated, the program is terminated; 
+If surrounded by catch block, it will propagate and the program will crash. 
+
+UNCHECKED exceptions DO NOT need to be caught!
+
+Don’t throw exceptions of Main!!!
+
+-Every exception that programer is creating should be checked. 
+
+——————————————————————
+
+Reflection - allows inspection of any object and see its all metadata (Everything associated with the object)
+
+Objects in java never change type
+
+new Date() - without reference is valid java code 
+
+Number num = new Integer(15);
+
+As long as wants on on the left is a super class of whats on the right, then everything is fine
+
+Boxing and unboxing allows us to interchange Objects and primitive
+
+If an object in Java does not have a name
+
+We cannot extentiate an Interface 
+
+Everything with “able” is an interface except for Throwable which is a class;
+
+If an object does not have a reference is $1
+
+Thread - light way process in an application which allows us to run process concurrently
+
+Main method is a UI thread
+
+What is “deprecation”?
+
+You can cast to an abstract class.
+
+What is reflection?
+
+Abstract methods and interfaces facilitates polymorphism
+
+Look at the slides from lecture

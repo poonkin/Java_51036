@@ -1,0 +1,100 @@
+MidTerm is through Chapter 8 (Read the textBook)
+
+Pseudo code is important in Java 
+While writing pseudo code indent if there is an if statement/ or loop INDENT
+
+Ternary in java e1 : e1 ? e2 : e3 
+
+Every Class in Java inherits from Object Class
+
+Java virtual machine is developed for every operating system . In Java, when one compiles
+a piece of code, it churns out a .class file that talks 
+
+Wrapper Classes:
+Correspond to primitives, all primitives have a wrapper class
+
+String Pools
+Java can sometimes pool strings together 
+
+substring - GO OVER, will be on the exam
+
+Advantages of Array:
+Accessing array in very fast 
+Disadvantage is that they have fixed length
+
+
+ArrayList can be used to fiddle with that  - its an array thats implemented as List, no limit of size 
+
+Disadvantage, when you run out of space, double the array is expensive. 
+
+
+When declaring and initializing a an ArrayList, declare its type 
+
+Every Array knows its length 
+
+Array.length - is a property not a method
+
+Primitives VS Objects
+——————————
+
+Heap - portion of memory set aside for an object 
+
+A class is a blue print 
+
+Constructors - the only method in a class that must be Capitalized
+Must be capitalized, must have the same name as class, can be overloaded - (i.e. two methods with a same name but different signatures) 
+i.e. a Class can have a constructor with no arguments and a construct with a multiple arguments
+
+If no constructor is explicitly initiated, a constructor will be implicitly provided 
+
+Shortcut of main - main + cntrl J 
+
+There is always an implicit constructor in all Java programs
+
+Objects get Extentiated on the HEAP
+
+Stack is only sure for something thats used locally 
+
+————————————————————————
+Java Program 
+
+Driver -has a main method  
+
+Create a bunch of Objects and manipulate them 
+——————————————
+
+Static is important 
+
+toString methods can be created on every class 
+
+IMPLICIT PARAMETER VS EXPLICIT PARAMETER, will be on the exam 
+when you call methods from a static context no need for implicit parameter
+Instance methods are called on implicit parameters which are references to objects on a heap
+
+
+Static Method is Called on a CLASS 
+instance Methods are Called on a instance 
+
+Constants are usually capitalized 
+
+Packages - READ ABOUT THIS…
+
+The most important function of a package is to disambiguate a class 
+In order to reference a class and its methods, we need to explicitly reference a package 
+where its coming from. 
+
+Passing to method a primitive, you pass by value 
+you pass by value 
+Primitives are passed by value 
+
+
+Passing by reference can mutate the value in the object  
+You can mutate the object
+
+READ THE BOOK
+GO OVER THE SLIDES
+
+
+
+
+

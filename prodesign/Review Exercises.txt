@@ -1,0 +1,65 @@
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+proDesign: Object-Oriented Analysis and Design
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Review Exercises: 3 points each. Starting on page 578 of textbook Big Java. Place your answers in
+ReviewExercises.txt located in the root of this project.
+
+R12.1 OO Analysis and Design
+Think about all the nouns and verbs that are associated with the program. 
+Nouns will be classes and verbs will be methods. 
+Use CRC cards to find classes, responsibilities and the collaborators 
+Use UML diagrams to record class relationships
+Use javadoc to document method behavior 
+Implement the program. 
+
+R12.2 
+To find classes, think about the nouns that are associated with the class you are trying 
+to design.
+ 
+R12.3 
+To find methods, think about the verbs that are associated with the class you are truing to design 
+
+R12.8 
+a. University - Student (aggregation)
+b. Student - TeachingAssitant (neither) 
+c. Student - Freshman  (inheritance) 
+d. Student - Professor  (neither)
+e. Car - Door  (aggregation)
+f. Truck - Vehicle (inheritance) 
+g. Traffic-TrafficSign (neither)
+h. TrafficSign - Color (aggregation) 
+
+
+R12.11 
+——————
+CLASS cashRegister 
+Responsibly:             Collaborator: 
+getting the price     
+enter payment         
+figure out change    
+giveBackChange 	         Coins             
+——————
+CLASS Coins 
+Responsibility:          Collaborator: 
+have a variety of coins 
+
+R12.13 - see attached 
+R12.14 - see attached 
+
+R12.16 
+Vending machine, product, coins 
+
+R12.18 - see attached
+
+R12.19
+A java program can written without import statement by referring to a full name (package + class name) of the object you are trying to use; 
+i.e. 
+
+java.util.Scanner in = new java.util.Scanner(System.in); 
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R9.1
+
+a. superclass = Employee, subclass = Manager
+b. superclass = Student, subclass = GraduateStudent 
+c. superclass = Person, subclass = Student 
+d. superclass = Employee, subclass = Professor 
+e. superclass = BankAccount, subclass = CheckingAccount 
+f. superclass = Vehicle, subclass = Car
+g. superclass = Vehicle, subclass = Minivan 
+h. superclass = Car, subclass = Minivan 
+i. superclass = Vehicle, subclass = Truck 
+
+R9.4
+Methods Inherited
+-Constructor 
+-public void deposit(double amount) 
+-public void withdrawal(double amount)
+-public void monthEnd()
+-public double getBalance() 
+
+Methods Overridden: 
+-Constructor 
+
+Methods Added: 
+-public void setInterestRate(double rate)
+
+R9.6
+a. legal
+b. illegal unless
+c. illegal 
+d. legal 
+
+R9.10
+
+(BankAccount) x casts x in the hierarchy of BankAccount tree where x is a reference to some object within that tree hierarchy. 
+ 
+(int) x is a case to primitive (not object) variable. 
+
+R9.11
+a. System.out instanceof PrintStream (true, System.out is a object of PrintStream class)
+b. System.out instanceof OutputStream (true, OutPutStream is a super class of PrintStream)
+c. System.out instanceof LogSteam (false, LogStream is a subclass of Outputstream) 
+d. System.out instanceof Object (true, Object is a superclass of every class)
+e. System.out instanceof Closeable (true, Closeable is an interface of PrintStream)
+f. System.out instanceof Writer (false, Writer is not in the hierarchy)
+
+R9.13
+
+I implemented the interfaces and a class and ran all options, none gave me an error. 
+But I would think: 
+b. J i = (J) i; 
+since J interface does not implement I interface 
+
+R9.14
+
+a. e = sub; (legal)
+b. sub = e; (illegal)
+c. sub = (Sandwich) e; (legal)
+d. sub = (Sandwich) cerealBox; (illegal)
+e. e = cerealBox; (illegal)
+f. e = (Edible) cerealBox; (legal)  
+g. e = (Rectangle) cerealBox; (illegal)
+h. e = (Rectangle) null; (illegal)
+

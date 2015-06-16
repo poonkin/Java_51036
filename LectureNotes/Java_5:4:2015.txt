@@ -1,0 +1,50 @@
+->Midterm, everything including next weeks readings 
+
+RULES OF JAVA 
+
+-Only concrete classes can be instantiated 
+-Type of any object on the heap must be of a concrete class 
+
+int x = 14/5; 
+x is 2. 
+
+
+primitive can be Boxed into an object (its wrapper class)
+ie. Double x = (double) 4589; 
+
+You can cast a primitive of a smaller size into a larger primitive 
+
+—————
+
+SWING use to be very widely used, and one of the most influent ion GUI frame works 
+SWING is not thread safe which is very problematic, it has only one Thread 
+
+JAVA event Model
+
+ModeL 
+
+There is an event source: i.e. a button 
+When you click a button, it generates an an action event (throws an event) 
+You can create and event listener that uses interfaces to catch the event 
+
+ANY class that implements the lintier interface can be a listener
+
+Listener must listening to correct events 
+
+Event source must correspond to event listener 
+
+LiveTemplates in Intelli J is very important, check them out… 
+
+“Inflating a layout” 
+
+Check the slits to get a better understanding of listeners 
+
+ADAPTERS
+
+What is an Adapter?
+
+Downloads git lab from Github
+
+//TODO with one space creates a todo that helps keep track of what needs to be done
+
+

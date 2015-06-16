@@ -1,0 +1,83 @@
+Java Lambdas 
+
+Lambdas expression is a block of code with a parameter 
+
+Lamvda Syntax 
+
+(parameters) -> expression 
+
+
+EG: 
+(int x) -> (return (x>10) ? x = 1)
+
+Lambdas are important to functions
+
+Another Lambda operator is ::
+
+Easier to implement threads 
+
+
+“.forEach” - is a way to express a loop 
+
+defined with main just like for-loops etcs 
+
+
+“Streams” 
+
+Lambdas is oracles answer to Scala
+
+Steams
+
+
+
+Functional Interface - only once contract method 
+
+“STREAM INTERFACE” - go over 
+
+
+Serialization is used for passing objects between servers
+
+Serializable interface (no contract methods )
+
+———————
+Threads
+
+Threads are very much like “light way “processes
+but
+they are used for intra app communication
+Threads have a access to the same heap 
+Since Threads have access to heap
+You need to balance: which are unbalance 
+Thread SAFETY - multiple threads can access the same object and mutate it 
+Thread Liveliness
+
+
+In the console application you have a main thread 
+
+Then you spawn a new thread that will concurrently
+
+Metaphor for threads:
+Engine 
+
+
+Every thread must implement a tunable interface which has a run object
+
+We don’t know if threads are running on two different core processes
+
+————————————————
+
+Synchronized - if a thread is trying to call method which may be used by another thread, the thread needs to wait, otherwise it can create problems
+
+
+“ThreadPool” 
+
+An organized way to have threads work on a runnable objects 
+ThreadPools are very useful 
+
+
+
+“Blocking Que” 
+
+“Executor Call pull”
+
+Java FX - replacement for SWING - its very good, but very complicated

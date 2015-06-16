@@ -1,0 +1,88 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+R8.1
+Encapsulation is a practice of keeping details of implementation of classes hidden from the user. Encapsulation is useful because it doesn’t allow users to fiddle with the class methods and attributes and break or manipulate them. 
+
+
+R8.4
+Public interface of a class is a set of methods and attributes that are accessible to clients. In implementation of a class, the programer tries to keep majority of attributes private. Implementation of methods is hidden from users as well. 
+
+i.e. A user is allowed to use a class method through a public interface, but does not have access to the code that makes the method work. (encapsulation)
+
+  
+R8.7
+An instance method is a method that acts on a particular instance of a a class. 
+
+Eg Class Circle;   
+   Circle c1 = new Circle(); 
+   c1.getArea(); <- an instance method 
+
+A static method, is a method that pertains to an entire class and does not act on a specific instance of class.
+
+Eg. Math.sqrt(); 
+
+
+R8.8
+A mutator method modifies the object on which it operates 
+An accessor method queries the object for some information without changing it. 
+
+R8.9
+An object on which a method is invoked is called the implicit parameter of the method. 
+Eg. Eg Class Circle;   
+   Circle c1 = new Circle(); 
+   c1.getArea(); <- c1 is an IMPLICIT parameter 
+
+If we had to pass the radius to a getArea method to get the area of a circle 
+Eg. c1.getArea(1);  1 would be considered an EXPLICIT parameter 
+
+Explicit parameters are formal parameters of a method 
+
+
+R8.10 
+An instance method can at most have one implicit parameter. 
+Static methods have zero implicit parameters 
+An instance method can have any amount of explicit parameters 
+
+
+R8.12
+A class can potentially have an unlimited number of constructors. 
+You can have a class without an explicitly declared constructor. However, all classes have one implicit constructor by default. 
+If a class has more then one constructor, a constructor which matches the parameter signature of parameters passed during instantiation gets called. 
+
+
+R8.16
+Although anyone can read the class declaration of an instance variable, it is difficult to access/change those attributes without creating special setter/getter methods for them .
+
+For example, lets say we have a class Circle with a private attribute radius which we explicitly set in a constructor. 
+
+Thus, we would create a circle with radius 1 as follows: 
+Circle c1 = new Circle(1); 
+
+However, if we wanted to access the radius attribute of c1, c1.radius would not return any value.
+Similarly, we wouldn’t be able to change the radius by c1.radius = 2; 
+
+
+R8.19
+This reference is equivalent to the name of an instance variable being referenced. 
+ 
+For example
+Circle c1 = new Circle(); 
+   c1.getArea() can also becalmed as this.getArea() 
+
+“this” also makes it easier to read to implementation of class methods within the class, as it explicitly specifies that you are working with the parameters of “this” class. 
+
+
+R8.20
+If a class has attributes of primitive number type (int, byte, double) or String type or Boolean type and non of these attributes are initialized in a constructor then by 
+default: 
+
+primitive numeric variables will be initialized to zero 
+Strings will be initialized to null values 
+Booleans will be initialized to false 
+
+An empty string is the following: String s1 = “”;  which is different from String s1 = null
+
+
+
+

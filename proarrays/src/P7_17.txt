@@ -1,0 +1,8 @@
+Brian Hughes;Dinner;35.00;07/19/2014
+Michal Jordan;Conference;112.39;09/12/2013 
+Fred Hidgehawk;Lodging;345.98;12/19/2014
+Chris Cook;Massage;99.12;03/01/2014
+Chris Fincher;Dinner;19.00;06/11/2014
+Andrew Stier;Lodging;345.00;07/19/2014
+Jacob Gaynor;Massage;84.00;02/25/2014
+Kim Kardeshian;Conference;595.00;05/05/2014

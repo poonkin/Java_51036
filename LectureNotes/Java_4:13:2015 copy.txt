@@ -1,0 +1,47 @@
+Polymorphism - the most important part of object oriented programming 
+
+As you move down the object heiarachy, the object at the bottom of the pyramid inherits everything from the top of the pyramid 
+
+Every object inherits from “Object” 
+
+SHIFT+CONTROL+ALT+U shows a uml diagram 
+
+Interface - a contract that says that methods should be within interfaces must be over written as it gets inherited 
+
+Rules: 
+
+1. reference type of the same type
+
+
+obj.getClass() gets the type of a class
+
+instance of - checks the type of object 
+
+Interfaces - A class implements an interface rather then extends it. 
+
+A class extends a super class and inherits everything from it 
+
+
+A super class in less complex then a subclass 
+A sub class in more complex then a superclass
+
+You must always use “extends key word”
+
+Abstract 
+
+Abstract class is a lot like interfaces
+Abstract method has as signature but no body.
+
+Java can only extends from one parent
+
+Go over abstract classes
+
+Go over keyword “implements” 
+
+Don’t worry about checking exceptions
+
+Checked exceptions MUST be handled 
+
+go OVER lab3 
+
+

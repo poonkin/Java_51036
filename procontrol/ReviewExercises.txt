@@ -1,0 +1,122 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R1.5 The following are all benefits to using Java over machine code:
+1/ Java bytecode is platform independent and may be run on any system that has a JVM. This quality is known as portability.
+2/ Java JIT compilers can run efficient Java programs as fast or faster than machine code programs
+3/ Java is memory-managed. This reduces about 95% of runtime errors (mostly memory-related) as compared to unmanaged code.
+4/ Java was designed for networking and the Internet in mind; and it is generally safer than machine code
+
+R2.3
+s = s0 + v0*t + (1/2)*g*t*t 
+
+g = 4 * Math.pow(Math.PI, 2) * ( Math.pow(2, 3) / (Math.pow(a, 3)/ ( Math.pow(p,2)*(m1+m2))))
+
+fv = pv * Math.pow ( (1+ (i/100)), yrs )
+
+c = Math.sqrt( a*a + b*b - 2*a*b*Math.cos(angC) , .5)
+
+R2.6 
+
+a. n / 10 + n % 10 = 8
+b. n % 2 + m % 2 = 1 
+c. (m + n) / 2 = 17
+d. (m + n) / 2.0 = 17.5
+e. (int) ( .5 * (m + n)) = 17 
+f. (int) Math.round( 0.5 * (m + n)) = 18 
+
+R2.10 
+
+Purchase, payment and change are all declared as doubles which are floating point numbers. 
+Doubles print to about 15 decimal digits. Floating numbers are prone to creating random ROUNDOFF errors, as is in this case. 
+To fix the error add “.2f” in the print statement statement, which will print two digits after a decimal. (System.out.println( “.2f”, change); 
+
+R2.11 
+
+2 - would be assigned to an int type
+2.0 - would be assigned to a double 
+‘2’ - would be assigned to a char type 
+“2” - would be assigned to String 
+“2.0” is a String as well 
+
+R2.15 
+
+Prompt user for input as String , if not convert to a string (Integer.toString(input))
+print the first character of the string (input.charAt(0))
+print the last character of the string (input.chart(input.length())
+
+R3.18 
+
+Prompt User to enter input 
+initialize grade to null  
+if( input is between 90 and 100) then 
+	grade = A
+else if (input is between 80 and 89) then 
+	grade = B 
+else if (input is between 70 and 79) then 
+	grade = C
+else if (input is between 60 and 69) then 
+	grade = D
+else 
+	grade = F 
+
+R4.9
+Java supports three types of loops: 
+1) while loop 
+2) for loop 
+3) do - while loop 
+
+1) The while loop while keep running until its conditional statement remains true, it is also know as an indefinite loop 
+
+Syntax: 
+while(condition)
+{
+	statements
+} 
+
+2) The for loop is a definite loop. It runs a predefined number of times until user defined set of conditions is met 
+
+Syntax:
+for ( counter; counter <= value; counter adjustment)
+{
+	statements 
+} 
+
+3. do - while loop is a loop that executes at least once and checks the conditional loop statement after execution. After its executed once, it behaves like a while loop
+
+Syntax:
+do 
+{
+	statements 
+}
+while(conditions)
+
+4.12 
+
+celsius = 0 
+fahrenheit = 32
+
+counter = 0 
+
+while (counter < 10)
+	print(celsius)
+	print(fahrenheit)
+	celsius = celsius + 10
+	fahrenheit = fahrenheit + 18
+	counter = counter + 1 	
+	
+
+4.15
+
+int s = 0; 
+int i = 1; 
+
+while ( i <= 10)
+{
+    s = s + 1; 
+    i = i + 1; 
+} 
+
+
+

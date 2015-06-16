@@ -1,0 +1,49 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R13.1 
+a. Recursion - a programming method for solving problems in which a method calls itself and passes to itself a smaller version of the same problem until a base case is reached  
+b. Iteration - a way of solving problems by repeating a set of instructions
+c. Infinite recursion - method that calls itself until it runs out of memory. 
+d. Recursion helper method - are recursive methods that are used to solve problems that are similar to origin problems but are modified in a way that makes applying recursion to them easier.
+
+R13.2
+
+
+
+
+R13.3
+One of the solutions for sorting an array of numbers would be merge sort;
+Give an array of numbers, the array keeps getting divided until you have a collections 
+of array with size one. The you recombine these arrays, but as you recombine them 
+you put the elements in a correct order. 
+
+
+13.6 
+
+power( number, power)
+if power = 0 
+	return 1 
+else 
+   factor = power(number, (int) power/2)
+	if power%2 == 0; 
+          	return factor*factor; 
+    	else 
+		return factor*factor*number 
+
+
+R13.8
+int fact(int k){
+
+	int result - 0;  
+	if ( n == 0 or n == 1) 
+	    return 1; 
+	else
+	    result = result + fact(k -1) ; 
+	
+	return result;
+}
+
+
+
